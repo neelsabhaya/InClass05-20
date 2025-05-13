@@ -15,6 +15,24 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student 
 {
     private String name;
+    private String car;
+    private String lunch;
+
+    public String getCar() {
+        return car;
+    }
+
+    public void setCar(String car) {
+        this.car = car;
+    }
+
+    public String getLunch() {
+        return lunch;
+    }
+
+    public void setLunch(String lunch) {
+        this.lunch = lunch;
+    }
 
     /**
      * @return the name
@@ -28,7 +46,5 @@ public class Student
      */
     public void setName(String givenName) {
         name = givenName;
-    }
-    
-    
+ }
 }
